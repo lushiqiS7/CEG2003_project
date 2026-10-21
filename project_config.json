@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "random_seed": 2003,
+  "minimum_observed_days": 3,
+  "review_fraction": 0.10,
+  "bootstrap_repetitions": 1000,
+  "night_hours": [0, 1, 2, 3, 4, 5],
+  "primary_experiment": "March chronological seven-day forecasts",
+  "incident_policy": "recorded involvement; exclude explicit duplicate and near-miss flags; unresolved codes remain provisional",
+  "identity_mapping_status": "assumed consistent across workbooks; course confirmation pending",
+  "april_analysis_status": "supplementary only; scope and completeness unconfirmed",
+  "windows": [
+    {"name": "train", "feature_start": "2024-03-01", "feature_end": "2024-03-07", "outcome_start": "2024-03-08", "outcome_end": "2024-03-14"},
+    {"name": "validation", "feature_start": "2024-03-08", "feature_end": "2024-03-14", "outcome_start": "2024-03-15", "outcome_end": "2024-03-21"},
+    {"name": "test", "feature_start": "2024-03-15", "feature_end": "2024-03-21", "outcome_start": "2024-03-22", "outcome_end": "2024-03-28"},
+    {"name": "demonstration", "feature_start": "2024-03-25", "feature_end": "2024-03-31", "outcome_start": "2024-04-01", "outcome_end": "2024-04-07"}
+  ]
+}

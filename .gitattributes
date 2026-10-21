@@ -1,0 +1,6 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.mjs text eol=lf
+*.ipynb filter=strip-notebook text eol=lf
